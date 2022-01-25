@@ -1,0 +1,17 @@
+:root{
+    --primary:#BE2EDD;
+    --secondary: #BE2EDD;
+    --primary_pink: #f54985;
+    --secondary_pink: #fd79a8;
+    --light: #F5F6FA;
+}
+.head_text{
+    color:var(--light);
+    padding: 0px 15px;
+    background-color: var(--primary_pink);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
