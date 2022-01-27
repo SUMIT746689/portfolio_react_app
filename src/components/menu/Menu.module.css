@@ -53,8 +53,8 @@
   }
   .menu{
     top:0;
+    left:0;
     height: 40vh;
     position: sticky;
-    z-index: 1;
   }
 }

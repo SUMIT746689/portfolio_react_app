@@ -1,0 +1,35 @@
+:root{
+    --primary:#BE2EDD;
+    --secondary: #BE2EDD;
+    --primary_pink: #f54985;
+    --third_pink: #ff0059ec;
+    --secondary_pink: #fd79a8;
+    --light: #f5f6faa1;
+}
+.footer{
+    background-color: var(--primary_pink);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px;
+    color: var(--light);
+}
+.footer p{
+    padding: 2px;
+    height: 50px;
+}
+.footer p a{
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media screen and (max-width:500px){
+    .footer p{
+       font-size: 0.8rem;
+    }
+}
